@@ -1201,7 +1201,7 @@ height: 240px;
 
 .hex1 {
   top: 50px;
-  left: 260px;
+  left: 245px;
 }
 
 /* LEFT */
@@ -1217,7 +1217,7 @@ height: 240px;
 .hex3 {
 
   top: 185px;
-  left: 500px;
+  left: 485px;
 }
 
 /* CENTER */
@@ -1225,7 +1225,7 @@ height: 240px;
 .hex4 {
 
   top: 330px;
-  left: 260px;
+  left: 245px;
 }
 
 /* BOTTOM RIGHT */
@@ -1233,7 +1233,7 @@ height: 240px;
 .hex5 {
 
   top: 465px;
-  left: 505px;
+  left: 490px;
 }
 
 /* FAR RIGHT */
@@ -1241,7 +1241,7 @@ height: 240px;
 .hex6 {
 
     top: 320px;
-    left: 740px;
+    left: 725px;
 }
 
 /* Hexagon content */
@@ -1290,7 +1290,7 @@ height: 240px;
 
   color: rgba(255,255,255,0.95);
 
-  font-size: 16px;
+  font-size: 13px;
 
   line-height: 1.7;
 
@@ -3150,7 +3150,7 @@ height: 240px;
 
   border-radius: 50%;
 
-  background: #3f7f81;
+  background: #7bd5d8;
 
   box-shadow:
     0 0 18px rgba(99,171,189,0.8);
