@@ -1201,16 +1201,15 @@ height: 240px;
 
 .hex1 {
   top: 50px;
-  left: 250px;
+  left: 240px;
 }
 
 /* LEFT */
 
 .hex2 {
 
-  margin-left: 40px;
   top: 185px;
-  left: 10px;
+  left: 0px;
 }
 
 /* RIGHT */
@@ -1218,7 +1217,7 @@ height: 240px;
 .hex3 {
 
   top: 185px;
-  left: 455px;
+  left: 480px;
 }
 
 /* CENTER */
@@ -1226,7 +1225,7 @@ height: 240px;
 .hex4 {
 
   top: 330px;
-  left: 250px;
+  left: 240px;
 }
 
 /* BOTTOM RIGHT */
@@ -1234,7 +1233,7 @@ height: 240px;
 .hex5 {
 
   top: 465px;
-  left: 460px;
+  left: 485px;
 }
 
 /* FAR RIGHT */
@@ -1242,7 +1241,7 @@ height: 240px;
 .hex6 {
 
     top: 320px;
-    left: 670px;
+    left: 720px;
 }
 
 /* Hexagon content */
