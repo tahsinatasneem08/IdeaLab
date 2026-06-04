@@ -13,7 +13,7 @@ body {
   background: #ffffff;
   color: rgb(40, 80, 123);
   overflow-x: hidden;
-  zoom: 0.9;
+  width: 100%;
 }
 
 /* LOADER */
@@ -250,7 +250,7 @@ nav a:hover {
 .hero-content p {
   color: rgba(255,255,255,0.8);
   line-height: 1.8;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .hero-tag {
@@ -302,7 +302,7 @@ nav a:hover {
 
 .btn {
   padding: 16px 30px;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -332,7 +332,7 @@ nav a:hover {
 
   position: relative;
 
-  padding: 140px 8%;
+  padding: 110px 6%;
 
   background:
     radial-gradient(
@@ -393,7 +393,7 @@ nav a:hover {
   position: absolute;
 
   width: 700px;
-  height: 700px;
+  height: 580px;
 
   background:
     radial-gradient(
@@ -437,8 +437,8 @@ nav a:hover {
 
   position: relative;
 
-  width: 230px;
-  height: 230px;
+  width: 200px;
+height: 200px;
 
   border-radius: 50%;
 
@@ -550,7 +550,7 @@ nav a:hover {
 
   color: white;
 
-  font-size: 23px;
+  font-size: 19px;
 
   font-weight: 450;
 
@@ -826,7 +826,7 @@ nav a:hover {
 
   grid-template-columns: 1.2fr 0.8fr;
 
-  gap: 80px;
+  gap: 55px;
 
   align-items: center;
 
@@ -876,7 +876,7 @@ nav a:hover {
 
   color: rgba(255,255,255,0.75);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 2;
 
@@ -1074,7 +1074,7 @@ nav a:hover {
 
   margin:auto;
 
-  gap:120px;                
+  gap: 55px;                
 
   padding:0 40px;           
 }
@@ -1123,7 +1123,7 @@ nav a:hover {
 
   color: rgba(255,255,255,0.78);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 1.9;
 
@@ -1139,9 +1139,8 @@ nav a:hover {
 
   position:relative;
 
-  width:1150px;
-
-  height:820px;
+  width: 980px;
+height: 700px;
 
   margin:0 auto;
 
@@ -1156,9 +1155,8 @@ nav a:hover {
 
   position: absolute;
 
-  width: 280px;
-
-  height: 280px;
+  width: 240px;
+height: 240px;
 
   backdrop-filter: blur(20px);
 
@@ -1425,7 +1423,7 @@ nav a:hover {
 
   background: #f7fbfd;
 
-  padding: 160px 8%;
+  padding: 120px 6%;
 
   position: relative;
 
@@ -1446,7 +1444,7 @@ nav a:hover {
 
   align-items: center;
 
-  gap: 80px;
+  gap: 55px;
 }
 
 /* Left side */
@@ -1474,9 +1472,8 @@ nav a:hover {
 
   position: relative;
 
-   width: 270px;
-
-  height: 520px;
+   width: 240px;
+height: 470px;
 
   flex-shrink: 0;
 
@@ -1515,9 +1512,8 @@ nav a:hover {
 
 .founder-preview img {
 
-  width: 230px;
-
-  height: 230px;
+  width: 200px;
+height: 200px;
 
   object-fit: cover;
 
@@ -1560,9 +1556,8 @@ nav a:hover {
 
   inset: 0;
 
-  width: 740px;
-
-  height: 420px;
+  width: 650px;
+height: 380px;
 
   background: rgba(14, 75, 95, 0.42);
 
@@ -1614,7 +1609,7 @@ nav a:hover {
 
   color: #ffffff;
 
-  font-size: 20px;
+  font-size: 17px;
 
   font-weight: 400;
 }
@@ -1630,7 +1625,7 @@ nav a:hover {
 
   color: #173554;
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 1.9;
 
@@ -1711,7 +1706,7 @@ nav a:hover {
 
   color: #45698a;
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 2;
 
@@ -1799,7 +1794,7 @@ nav a:hover {
 
   color: #45698a;
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 2;
 
@@ -2022,7 +2017,7 @@ nav a:hover {
 
     flex-direction: column;
 
-    gap: 80px;
+    gap: 55px;
   }
 
   .advisory-left {
@@ -2140,7 +2135,7 @@ nav a:hover {
 
   color: rgba(255,255,255,0.72);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 2;
 
@@ -2174,9 +2169,8 @@ nav a:hover {
 
   transform: translate(-50%, -50%);
 
-  width: 280px;
-
-  height: 280px;
+  width: 240px;
+height: 240px;
 
   border-radius: 50%;
 
@@ -2534,7 +2528,7 @@ nav a:hover {
 
   position: relative;
 
-  padding: 140px 8%;
+  padding: 110px 6%;
 
   background:
     linear-gradient(
@@ -2591,7 +2585,7 @@ nav a:hover {
 
   align-items: center;
 
-  gap: 100px;
+  gap: 70px;
 
   max-width: 1600px;
 
@@ -2626,7 +2620,7 @@ nav a:hover {
 
   color: #143138;
 
-  font-size: clamp(55px, 7vw, 58px);
+  font-size: clamp(44px, 5vw, 52px);
 
   line-height: 0.95;
 
@@ -2646,7 +2640,7 @@ nav a:hover {
 
   color: rgba(22,61,104,0.72);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 1.6;
 }
@@ -2657,7 +2651,7 @@ nav a:hover {
 
   width: 60%;
 
-  height: 700px;
+  height: 580px;
 
   display: flex;
 
@@ -2672,7 +2666,7 @@ nav a:hover {
 
   flex: 1;
 
-  border-radius: 40px;
+  border-radius: 32px;
 
   overflow: hidden;
 
@@ -2817,7 +2811,7 @@ nav a:hover {
 
     flex-direction: column;
 
-    gap: 80px;
+    gap: 55px;
   }
 
   .projects-content,
@@ -2861,7 +2855,7 @@ nav a:hover {
 
   position: relative;
 
-  padding: 130px 8%;
+  padding: 105px 6%;
 
   background:
     radial-gradient(
@@ -2919,7 +2913,7 @@ nav a:hover {
 
   align-items: center;
 
-  gap: 100px;
+  gap: 70px;
 
   max-width: 1500px;
 
@@ -3037,7 +3031,7 @@ nav a:hover {
 
 .stat-box h2 {
 
-  font-size: 78px;
+  font-size: 64px;
 
   color: #f4f4f4;
 
@@ -3114,7 +3108,7 @@ nav a:hover {
 
   color: rgba(246, 246, 246, 0.75);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 2;
 
@@ -3142,7 +3136,7 @@ nav a:hover {
 
   color: #ebebeb;
 
-  font-size: 20px;
+  font-size: 17px;
 
   font-weight: 500;
 }
@@ -3243,7 +3237,7 @@ nav a:hover {
   position: absolute;
 
   width: 700px;
-  height: 700px;
+  height: 580px;
 
   background:
     radial-gradient(
@@ -3270,7 +3264,7 @@ nav a:hover {
 
   align-items: center;
 
-  gap: 80px;
+  gap: 55px;
 
   max-width: 1600px;
 
@@ -3292,8 +3286,7 @@ nav a:hover {
 
   color: white;
 
-  font-size:
-    clamp(58px, 8vw, 58px);
+  font-size: clamp(46px, 6vw, 52px);
 
   font-weight: 250;
 
@@ -3316,7 +3309,7 @@ nav a:hover {
   color:
     rgba(255,255,255,0.68);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 1.9;
 
@@ -3339,7 +3332,7 @@ nav a:hover {
 
   border-radius: 38px;
 
-  padding: 80px;
+  padding: 55px;
 
   display: grid;
 
@@ -3410,7 +3403,7 @@ nav a:hover {
 
   color: white;
 
-  font-size: 20px;
+  font-size: 17px;
 
   font-weight: 600;
 
@@ -3425,7 +3418,7 @@ nav a:hover {
 
   text-decoration: none;
 
-  font-size: 20px;
+  font-size: 17px;
 
   transition:
     color 0.3s ease,
@@ -3454,7 +3447,7 @@ nav a:hover {
   color:
     rgba(255,255,255,0.72);
 
-  font-size: 20px;
+  font-size: 17px;
 
   line-height: 1.5;
 }
@@ -3518,7 +3511,7 @@ nav a:hover {
 
   color: white;
 
-  font-size: 20px;
+  font-size: 17px;
 
   background:
     rgba(255,255,255,0.08);
@@ -3730,7 +3723,7 @@ nav a:hover {
 
   color: white;
 
-  font-size: 20px;
+  font-size: 17px;
 
   cursor: pointer;
 
