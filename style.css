@@ -13,6 +13,7 @@ body {
   background: #ffffff;
   color: rgb(40, 80, 123);
   overflow-x: hidden;
+  zoom: 0.9;
 }
 
 /* LOADER */
