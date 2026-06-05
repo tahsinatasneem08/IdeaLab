@@ -1137,18 +1137,21 @@ height: 200px;
 
 /* Honeycomb */
 
+/* Honeycomb */
+
 .hexagon-layout {
 
-  position:relative;
+  position: relative;
 
-  width: 980px;
+  width: 700px;
+
   height: 700px;
 
-  margin:0 auto;
+  margin: 0 auto;
 
-  left:-75px;    
+  left: -20px;
 
-  overflow:visible;
+  overflow: visible;
 }
 
 /* Hexagons */
@@ -1157,8 +1160,9 @@ height: 200px;
 
   position: absolute;
 
-  width: 240px;
-height: 240px;
+  width: 280px;
+
+  height: 280px;
 
   backdrop-filter: blur(20px);
 
@@ -1203,48 +1207,44 @@ height: 240px;
 
 .hex1 {
   top: 50px;
-  left: 230px;
+  left: 170px;
 }
 
 /* LEFT */
 
 .hex2 {
-
   top: 185px;
-  left: 0px;
+  left: 35px;
 }
 
 /* RIGHT */
 
 .hex3 {
-
   top: 185px;
-  left: 470px;
+  left: 320px;
 }
 
 /* CENTER */
 
 .hex4 {
-
-  top: 330px;
-  left: 230px;
+  top: 320px;
+  left: 170px;
 }
 
 /* BOTTOM RIGHT */
 
 .hex5 {
-
-  top: 465px;
-  left: 475px;
+  top: 455px;
+  left: 320px;
 }
 
 /* FAR RIGHT */
 
 .hex6 {
-
-    top: 320px;
-    left: 710px;
+  top: 320px;
+  left: 470px;
 }
+
 
 /* Hexagon content */
 
