@@ -66,68 +66,174 @@ body {
 /* NAVBAR */
 
 .navbar {
+
   position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 22px 0;
+
+  top: 24px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 92%;
+
+  max-width: 1450px;
+
   z-index: 1000;
 
-  background: transparent;
+  padding: 18px 40px;
+
+  border-radius: 26px;
+
+  background:
+    rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(18px);
+
+  -webkit-backdrop-filter: blur(18px);
+
+  border:
+    1px solid rgba(255,255,255,0.12);
+
+  box-shadow:
+    0 10px 35px rgba(0,0,0,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+
+  transition:
+    background 0.4s ease,
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
 }
+
+/* INNER CONTAINER */
 
 .nav-container {
-  width: 92%;
-  margin: auto;
+
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
+
+  justify-content: space-between;
 }
 
-nav {
+/* NAV LINKS */
+
+.navbar nav {
+
   display: flex;
-  gap: 40px;
+
+  align-items: center;
+
+  gap: 32px;
 }
 
-nav a {
+.navbar nav a {
+
   position: relative;
-  color: white;
+
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.3s ease;
-  padding-bottom: 6px;
-  text-shadow: 0 6px 18px rgba(20, 47, 57, 0.5);
+
+  color: rgba(255,255,255,0.82);
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  transition: 0.35s ease;
 }
 
-nav a::after {
+/* HOVER */
+
+.navbar nav a:hover {
+
+  color: white;
+}
+
+/* UNDERLINE EFFECT */
+
+.navbar nav a::after {
+
   content: "";
+
   position: absolute;
+
   left: 0;
-  bottom: 0;
+
+  bottom: -6px;
+
   width: 0%;
-  height: 3px;
-  background: #eef079;
+
+  height: 2px;
+
+  border-radius: 50px;
+
+  background: #71d6ff;
+
   transition: width 0.35s ease;
-  border-radius: 20px;
 }
 
-nav a:hover::after {
+.navbar nav a:hover::after {
+
   width: 100%;
 }
 
-nav a:hover {
-  color: #ffffff;
-}
+/* LOGO */
 
 .logo {
-  font-size: 28px;
-  font-weight: 800;
+
+  color: white;
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
 }
 
 .logo span {
+
   color: #71d6ff;
+}
+
+/* SCROLL EFFECT */
+
+.navbar.scrolled {
+
+  background:
+    rgba(10,36,43,0.72);
+
+  box-shadow:
+    0 18px 45px rgba(0,0,0,0.22);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px){
+
+  .navbar nav {
+
+    gap: 18px;
+  }
+
+  .navbar nav a {
+
+    font-size: 14px;
+  }
+}
+
+@media(max-width:900px){
+
+  .navbar {
+
+    width: 95%;
+
+    padding: 16px 24px;
+  }
+
+  .navbar nav {
+
+    display: none;
+  }
 }
 
 /* =========================
