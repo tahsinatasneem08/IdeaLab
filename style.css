@@ -1001,7 +1001,9 @@ height: 200px;
 }
 
 
-/* VISION + MISSION */
+/* =========================
+   VISION + MISSION
+========================= */
 
 .philosophy-panels {
 
@@ -1034,6 +1036,8 @@ height: 200px;
 
   overflow: hidden;
 
+  isolation: isolate;
+
   cursor: pointer;
 
   transition:
@@ -1045,6 +1049,11 @@ height: 200px;
     rgba(255,255,255,0.08);
 
   backdrop-filter: blur(18px);
+
+  -webkit-backdrop-filter: blur(18px);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
 
   box-shadow:
     0 10px 35px rgba(0,0,0,0.08);
@@ -1060,7 +1069,7 @@ height: 200px;
 
   box-shadow:
     0 25px 60px rgba(0,0,0,0.18),
-    0 0 40px rgba(113,214,255,0.12);
+    0 0 45px rgba(224,215,82,0.18);
 }
 
 /* MINI SIDE */
@@ -1104,6 +1113,8 @@ height: 200px;
   font-weight: 500;
 
   letter-spacing: 1px;
+
+  white-space: nowrap;
 }
 
 /* EXPANDED CONTENT */
@@ -1112,9 +1123,9 @@ height: 200px;
 
   position: absolute;
 
-  left: 40px;
-
   top: 50%;
+
+  left: 50px;
 
   transform:
     translateY(-50%)
@@ -1124,11 +1135,13 @@ height: 200px;
 
   opacity: 0;
 
+  z-index: 1;
+
   transition:
     opacity 0.45s ease,
     transform 0.45s ease;
 
-  transition-delay: 0.12s;
+  pointer-events: none;
 }
 
 /* SHOW CONTENT */
@@ -1142,22 +1155,41 @@ height: 200px;
     translateX(0);
 }
 
+/* TITLE */
+
+.panel-expanded h3 {
+
+  color: white;
+
+  font-size: 30px;
+
+  font-weight: 600;
+
+  margin-bottom: 12px;
+
+  line-height: 1.1;
+}
+
+/* DESCRIPTION */
+
 .panel-expanded p {
 
   color: rgba(255,255,255,0.82);
 
-  line-height: 1.7;
+  line-height: 1.65;
 
-  font-size: 18px;
+  font-size: 16px;
+
+  font-weight: 400;
 }
 
-/* INDIVIDUAL GLOWS */
+/* GLOW VARIANTS */
 
 .vision-panel:hover {
 
   box-shadow:
     0 25px 60px rgba(0,0,0,0.18),
-    0 0 45px rgba(224,215,82,0.22);
+    0 0 45px rgba(113,214,255,0.16);
 }
 
 .mission-panel:hover {
@@ -1186,17 +1218,11 @@ height: 200px;
     align-items: center;
   }
 
-  .philosophy-panel:hover {
-
-    width: 100%;
-  }
-}
-
-@media(max-width:700px){
-
   .philosophy-panel {
 
     width: 100%;
+
+    max-width: 700px;
   }
 
   .philosophy-panel:hover {
@@ -1208,29 +1234,48 @@ height: 200px;
 
   .panel-expanded {
 
-    width: 55%;
+    width: 50%;
+  }
+}
+
+@media(max-width:700px){
+
+  .philosophy-panel {
+
+    height: 180px;
   }
 
   .panel-mini {
 
     width: 220px;
   }
-}
 
-/* RESPONSIVE */
+  .panel-mini span {
 
-@media(max-width:900px){
-
-  .about-values{
-    flex-direction:column;
-    align-items:flex-start;
+    font-size: 16px;
   }
 
-  .vision-mission-wrapper{
-    grid-template-columns:1fr;
+  .panel-expanded {
+
+    left: 25px;
+
+    width: 52%;
   }
 
+  .panel-expanded h3 {
+
+    font-size: 22px;
+  }
+
+  .panel-expanded p {
+
+    font-size: 14px;
+
+    line-height: 1.5;
+  }
 }
+
+/* ABOUT RESPONSIVE */
 
 @media(max-width:1000px){
 
