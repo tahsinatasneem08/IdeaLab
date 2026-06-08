@@ -1312,8 +1312,8 @@ height: 200px;
 /* TOP */
 
 .hex1 {
-  top: 50px;
-  left: 220px;
+  top: 60px;
+  left: 230px;
 }
 
 /* LEFT */
@@ -1326,29 +1326,29 @@ height: 200px;
 /* RIGHT */
 
 .hex3 {
-  top: 190px;
-  left: 420px;
+  top: 200px;
+  left: 430px;
 }
 
 /* CENTER */
 
 .hex4 {
-  top: 335px;
-  left: 220px;
+  top: 325px;
+  left: 230px;
 }
 
 /* BOTTOM RIGHT */
 
 .hex5 {
-  top: 480px;
-  left: 420px;
+  top: 470px;
+  left: 430px;
 }
 
 /* FAR RIGHT */
 
 .hex6 {
   top: 335px;
-  left: 620px;
+  left: 630px;
 }
 
 
